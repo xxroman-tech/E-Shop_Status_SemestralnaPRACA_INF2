@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="sk.uniza.fri.okna.PrihlasovacieOkno">
+  <grid id="27dc6" binding="main" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="572" height="453"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="d8238" binding="login" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="100.0" weighty="100.0"/>
+        </constraints>
+        <properties>
+          <background color="-13011570"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a69f5" class="javax.swing.JTextField" binding="oknoPrihlasovacieMeno">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="100"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="JetBrains Mono" size="11"/>
+              <foreground color="-14473174"/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="935e0" class="javax.swing.JLabel" binding="prihlasovacieMeno">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono"/>
+              <foreground color="-1"/>
+              <text value="Meno:"/>
+            </properties>
+          </component>
+          <component id="abbbe" class="javax.swing.JLabel" binding="prihlasovacieHeslo">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono"/>
+              <foreground color="-1"/>
+              <text value="Heslo:"/>
+            </properties>
+          </component>
+          <component id="f4d8d" class="javax.swing.JButton" binding="prihlasovacieTlacidlo">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12894656"/>
+              <font name="JetBrains Mono"/>
+              <foreground color="-14473174"/>
+              <text value="Prihlasit"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="3d6f5" class="javax.swing.JPasswordField" binding="oknoPrihlasovocaieHeslo">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0" ipadx="100"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <enabled value="true"/>
+              <font/>
+              <foreground color="-14473174"/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+          <component id="3cc21" class="javax.swing.JButton" binding="registraciaButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <foreground color="-14473174"/>
+              <text value="Registrovať"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4794c" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15909558"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="10e9e" class="javax.swing.JLabel" binding="nazovAplikacie">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16761268"/>
+              <enabled value="true"/>
+              <font name="JetBrains Mono" size="26"/>
+              <foreground color="-1"/>
+              <text value="e-shop STATUS"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
